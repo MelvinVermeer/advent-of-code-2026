@@ -1,0 +1,19 @@
+{
+  "name": "advent-of-code-2026",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "new": "node --env-file=.env scripts/new-challenge.ts",
+    "coverage": "vitest run --coverage",
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "26.6.10",
+    "@vitest/coverage-v8": "5.1.2",
+    "typescript": "7.0.2",
+    "vitest": "5.1.2"
+  }
+}
